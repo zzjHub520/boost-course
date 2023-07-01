@@ -17,6 +17,8 @@
 ```cmd
 #第一步 
 bootstrap.bat gcc
-b2.exe install --prefix=D:\Program Files\common-cpp\boost\boost_1_71_0 --build-type=complete toolset=gcc threading=multi
+
+# 不要有空格
+b2.exe install --prefix=D:\Documents\workspaces\cpp\boost\output\mgw8\boost_1_79_0 --build-type=complete toolset=gcc threading=multi --build-dir=D:\Documents\workspaces\cpp\boost\boost_1_79_0\build
 ```
 
